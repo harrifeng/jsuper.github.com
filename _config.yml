@@ -1,0 +1,16 @@
+markdown: rdiscount
+pygments: true
+permalink: /posts/:title.html
+auto: true
+rdiscount:
+  extensions: [smart]
+
+title: Tony's Chatters
+author:
+  name: Tony
+  email: ling.java@gmail.com
+  github: jsuper
+
+production_url: http://github.com/jsuper
+
+baseurl: /
