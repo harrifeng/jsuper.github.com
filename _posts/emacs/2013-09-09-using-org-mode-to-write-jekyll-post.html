@@ -44,7 +44,7 @@ layout: post
 <p>
 Org-mode是Emacs编辑器上一个基于文本的、快速且高效的文档编辑模式。起支持内容
 分级显示的编辑模式，同时支持强大的TODO列表，日志管理，做笔记或者写工程计划等。
-关于org-mode， 本文不做过多的解释。具体可以参见官方的详细文档<a href="http://orgmode.org/" target="_blank">org-mode</a>
+关于org-mode,本文不做过多的说明。具体可以参见官方的详细文档<a href="http://orgmode.org/" target="_blank">org-mode</a>
 </p>
 </div>
 </div>
@@ -54,9 +54,9 @@ Org-mode是Emacs编辑器上一个基于文本的、快速且高效的文档编�
 <p>
 Jekyll是一个采用Ruby编写的, 简单的、面向博客的静态网站生成工具。它能够将一系
 列文本文件（Markdown和Textile）转换成一个完整的，可以发布的静态页面。大名鼎鼎
-的代码托管商Github的Github pages就是采用的Jekyll做引擎。也就意味着，你可以免
-费使用Github的服务器来搭建属于你自己的项目WIKI，博客或者是网站等。关于Jekyll
-的详细使用，请参考官方文档<a href="http://jekyllrb.com/" target="_blank">Jekyll</a>.
+的代码托管商Github的Github pages就是采用的Jekyll做引擎。也就意味着，你可以免费
+使用Github的服务器来搭建属于你自己的项目WIKI，博客或者是网站等。关于Jekyll的详
+细使用，请参考官方文档<a href="http://jekyllrb.com/" target="_blank">Jekyll</a>.
 </p>
 </div>
 </div>
@@ -116,23 +116,23 @@ org-mode<a href="http://orgmode.org/manual/Publishing.html#Publishing" target="_
 <div class="outline-text-3" id="text-2-1">
 <p>
 org-jekyll-mode是一个emacs的插件，能够帮助用户使用org-mode来编写jekyll
-的博客文章, 使用org-jekyll-mode既可以创建类似jekyll博客文章命名格式的
+的博客文章, 使用org-jekyll-mode既可以快速创建类似jekyll博客文章命名格式的
 org-mode文件，也能够创建一个文件名不带时间前缀的文件。同时，
-org-jekyll-mode 能够将最终导出的文件格式化成标准的jekyll博客文章格式。
-如： 如果你创建的org-mode 文件的文件名是不带时间戳前缀的，那么
+org-jekyll-mode能够将最终导出的文件格式化成标准的jekyll博客文章格式。
+如： 如果你创建的org-mode文件的文件名是不带时间戳前缀的，那么
 org-jekyll-mode在导出最终的html文件之后，会在输出文件的文件名之前加上
 时间戳，如果你在org-mode-file中设定了 <b>#+DATE:</b> 选项，那么最终导出文件
-的时间错则会以这个值为准，否则就采用当前时间。同时，org-jekyll-mode也
-可以直接在org-mode文件中控制最终导出文件的yaml font matter。 目前，包
+的时间戳则会以这个值为准，否则就采用当前时间。同时，org-jekyll-mode也
+可以直接在org-mode文件中控制最终导出文件的yaml font matter。目前，包
 含了所有jekyll支持的yaml front matter keywords。 不过，如果需要在
 org-mode文件中使用的话，这些关键字前面都需要加上 <b>#+YAML/</b> 前缀。同时，
-keyword也必须要大写。
+keyword最好大写。
 </p>
 
 <p>
-org-jekyll-mode本身是一个单独的插件，本身在运行时是需要依赖org相关的包的，当然，目前
-其对org-mode版本的最低要求是8.0. 因为org-mode 8.0版本相对于以前的有很多API的更改，
-本人又刚好使用的是8.0+的版本，所以就没有对以前的版本做兼容处理。
+org-jekyll-mode本身是一个单独的插件，其在运行时是需要依赖org相关的包的，当然，目前对
+org-mode版本的最低要求是8.0. 因为org-mode 8.0版本相对于以前的有很多API的更改，本人又
+刚好使用的是8.0+的版本，所以就没有对以前的版本做兼容处理。
 </p>
 </div>
 </div>
@@ -140,7 +140,7 @@ org-jekyll-mode本身是一个单独的插件，本身在运行时是需要依�
 <h3 id="sec-2-2"><span class="section-number-3">2.2</span> 怎样使用org-jekyll-mode</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
-org-jekyll-mode使用非常简单，只需要将其最新的代码克隆到本机，再在你的emacs初始化文件
+org-jekyll-mode使用非常简单，只需要将其最新的代码克隆到本机，在你的emacs初始化文件
 里面添加如下代码即可:
 </p>
 
@@ -155,7 +155,7 @@ org-jekyll-mode使用非常简单，只需要将其最新的代码克隆到本�
 
 <p>
 在使用org-jekyll-mode之前，你必须要先定义一些变量的值:
-<b>org-jekyll/jekyll-project-root</b>   
+<b>org-jekyll/jekyll-project-root</b>
 </p>
 
 <p>
